@@ -1,0 +1,2 @@
+project_in_github
+1. Пройти пару уроков_по_Git

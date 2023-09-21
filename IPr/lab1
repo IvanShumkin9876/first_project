@@ -1,1 +1,9 @@
-
+import numpy as np
+# Сравнить две матрицы со случайными значениями на равенство
+A = np.random.randint(0,2,5)
+B = np.random.randint(0,2,5)
+# использовать встроенную функцию numpy
+numpy.array_equal(A, B)
+# либо так
+score = np.mean(A == B)
+print(score)
